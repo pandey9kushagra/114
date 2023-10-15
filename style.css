@@ -1,0 +1,51 @@
+h1{
+    font-size: 35px;
+    background-color: rgb(36, 146, 201);
+    width: 500px;
+    height: 75px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+#snap:hover{
+     
+    background-color: rgb(57, 109, 163);
+    width: 240px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#snap{
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+} 
+
+
+canvas{
+
+    animation-name: mycan;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+ 
+}
+
+@keyframes mycan{
+
+    0%{ box-shadow: 50px 50px 40px rgb(0, 0, 0);}
+    25%{ box-shadow: 50px 50px 40px rgb(216, 120, 31);}
+    50%{ box-shadow: 50px 50px 40px rgb(20, 98, 158);}
+    75%{ box-shadow: 50px 50px 40px rgb(255, 255, 255);}
+    100%{ box-shadow: 50px 50px 40px rgb(0, 0, 0);}
+}
+
+
+
